@@ -1,6 +1,6 @@
 <template>
   <main class="main">
-    <h1>Dad Joke Generator</h1>
+    <h1 class="orange">Dad Joke Generator</h1>
     <br />
     <joke-box :joke="currentJoke" />
     <generate-btn @generate-new="generateJoke()" />
